@@ -1,34 +1,29 @@
-# Personal Portfolio License (PPL) v1.0
+Personal Portfolio & Research License (PPL) v1.0
+Copyright (c) 2026 Parv Shah
 
-Copyright (c) 2026 Moncy Yohannan
+This project, including all code, financial models, and research methodologies, is made available publicly for learning, verification of skills, and reference purposes only.
 
-This project is made available publicly for learning and reference purposes only.
+1. Permissions
+You are permitted to:
 
-## Permissions
-You may:
-- View and study the code
-- Use small portions for personal learning
-- Build your own projects inspired by this work
+View and Audit: Study the source code and financial logic for the purpose of verifying the author's technical and analytical proficiency.
 
-## Restrictions
-You may NOT:
-- Copy, replicate, or clone the entire website, design, or experience
-- Use this project or its derivatives for commercial purposes
-- Re-upload, redistribute, or resell this project
-- Create tutorials, videos, or courses based on this exact project without permission
-- Use any original assets (including 3D models, avatar, or visuals)
+Educational Reference: Use small snippets of code or formulas for personal learning and non-commercial educational growth.
 
-## Attribution
-If you use any part of this project, you must give clear credit to:
-“Moncy Yohannan” with a link to the original source.
+Inspiration: Build original projects that are conceptually inspired by the design or analytical framework of this work.
 
-## Assets & 3D Content
-All 3D assets, including the avatar, models, textures, and visual elements are proprietary and NOT part of this license.
+2. Restrictions (The "Fine Print")
+You are STRICTLY PROHIBITED from:
 
-They may not be copied, used, or redistributed under any circumstances without explicit permission.
+Model Replication: Copying, cloning, or redistributing the specific valuation models, DCF frameworks, or equity research templates contained herein.
 
-## Enforcement
-Unauthorized use may result in DMCA takedown requests or legal action.
+Commercial Exploitation: Using any part of this project, including financial data visualizations or lead generation logic (specifically regarding the EV sector), for commercial gain or corporate use.
 
-## Contact
-connect@moncy.dev / www.moncy.dev
+Plagiarism of Insights: Representing any research findings, market analysis, or investment thesis found in this repository as your own.
+
+Asset Usage: Using original branding, custom UI components (e.g., TechStack.tsx), or specific financial datasets without express written consent.
+
+3. Financial Disclaimer
+Not Investment Advice: The contents of this portfolio are for demonstration purposes only. Nothing in this repository constitutes financial, legal, or investment advice.
+
+Data Accuracy: While the author strives for precision in equity research, the data is provided "as-is" without warranty of completeness or timeliness.
