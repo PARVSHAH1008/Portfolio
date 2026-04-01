@@ -41,9 +41,14 @@
   font-weight: 500;
 }
 .navbar-title {
-  font-weight: 700;
-  font-size: 14px;
-  letter-spacing: 0.2px;
+  display: flex;
+  align-items: center;
+}
+
+.navbar-title img {
+  height: 35px; /* Ensure the image fits nicely in the header */
+  width: auto;
+  border-radius: 4px;
 }
 @media only screen and (min-width: 500px) {
   .header {

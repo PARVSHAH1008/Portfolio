@@ -1,0 +1,120 @@
+.youtube-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: var(--cWidth);
+  max-width: 1400px;
+  margin: 150px auto;
+  position: relative;
+}
+
+.youtube-banner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding: 60px 80px;
+  background: linear-gradient(135deg, rgba(10, 17, 40, 0.8), rgba(20, 25, 45, 0.9));
+  border: 1px solid rgba(212, 175, 55, 0.3);
+  border-left: 5px solid var(--accentColor); /* Premium Gold Sidebar Highlight */
+  border-radius: 8px;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
+  backdrop-filter: blur(10px);
+}
+
+.youtube-content {
+  max-width: 60%;
+}
+
+.youtube-content h2 {
+  font-family: "Playfair Display", serif;
+  font-size: 40px;
+  font-weight: 600;
+  color: #fff;
+  margin: 0 0 15px 0;
+  letter-spacing: 1px;
+}
+
+.youtube-content p {
+  font-family: "Inter", sans-serif;
+  font-size: 18px;
+  line-height: 30px;
+  color: #d1d5db;
+  margin: 0;
+  font-weight: 300;
+}
+
+.youtube-action {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.youtube-button {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  background-color: var(--accentColor); /* Gold Button */
+  color: #0a1128; /* Dark Navy Text */
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  padding: 16px 36px;
+  border-radius: 50px;
+  text-decoration: none;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0 10px 20px rgba(212, 175, 55, 0.2);
+}
+
+.youtube-button:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 15px 30px rgba(212, 175, 55, 0.4);
+}
+
+.youtube-icon {
+  font-size: 24px;
+}
+
+/* Responsiveness */
+@media only screen and (max-width: 1024px) {
+  .youtube-banner {
+    flex-direction: column;
+    text-align: center;
+    padding: 50px;
+    gap: 40px;
+    border-left: 1px solid rgba(212, 175, 55, 0.3);
+    border-top: 5px solid var(--accentColor);
+  }
+
+  .youtube-content {
+    max-width: 100%;
+  }
+
+  .youtube-content h2 {
+    font-size: 32px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .youtube-section {
+    margin: 100px auto;
+  }
+
+  .youtube-banner {
+    padding: 30px 20px;
+  }
+
+  .youtube-content h2 {
+    font-size: 26px;
+  }
+
+  .youtube-content p {
+    font-size: 16px;
+    line-height: 26px;
+  }
+
+  .youtube-button {
+    font-size: 16px;
+    padding: 14px 28px;
+  }
+}

@@ -6,9 +6,10 @@ const About = () => {
       <div className="about-me">
         <h3 className="title">About Me</h3>
         <p className="para">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic quis
-          dolores numquam iusto Ratione earum ducimus autem id iure pariatur
-          dolorum quae maiores.
+          Aspiring Equity Research Analyst with a strong interest in financial markets, company analysis, and valuation. 
+          Currently pursuing Computer Science Engineering while actively studying capital markets, business models, and financial statements. 
+          Experienced in researching industries, analyzing company growth drivers, and understanding macroeconomic and sectoral trends. 
+          Passionate about long-term investing, financial modeling, and identifying companies with sustainable competitive advantages.
         </p>
       </div>
     </div>
