@@ -12,14 +12,14 @@ const projects = [
     category: "Logistics Sector",
     tools: "Financial Modeling, Excel, Data Interpretation",
     desc: "Analyzed drivers such as DFC, double-stack trains, container traffic growth, and operational metrics like NTKM to understand infrastructure impact on profitability.",
-    img: "/images/train.jpg"
+    img: import.meta.env.BASE_URL + "images/train.jpg"
   },
   {
     title: "Independent Market Research",
     category: "Fundamental Analysis",
     tools: "Annual Reports, Earnings Calls",
     desc: "Regularly analyze Indian listed companies, focusing on capital allocation, competitive advantage, revenue growth drivers, and industry structure.",
-    img: "/images/nse-bse.png"
+    img: import.meta.env.BASE_URL + "images/nse-bse.png"
   }
 ];
 
